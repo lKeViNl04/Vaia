@@ -1,6 +1,6 @@
 export default function HeroeSection() {
     return (
-    <section id="heroe" className="text-center py-24 md:py-48 relative bg-black/60 bg-blend-multiply bg-cover bg-center bg-[url('imgs/heroe-bg.webp')]">
+    <section id="heroe" className="text-center py-24 md:py-48 relative bg-black/60 bg-blend-multiply bg-cover bg-center" style={{ backgroundImage: `url('${import.meta.env.BASE_URL}/imgs/heroe-bg.webp')`}}>
         <div className="container mx-auto px-6 relative z-10">
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-white mb-4">Tu Próximo Viaje, Perfectamente Organizado</h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
